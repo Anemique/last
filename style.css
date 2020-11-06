@@ -1,0 +1,518 @@
+body {
+    margin:0;
+    background-image: url("images/background.png");
+}
+
+@font-face {
+    font-family: oswald; /* Имя шрифта */
+    src: url(fonts/Oswald-VariableFont_wght.ttf); /* Путь к файлу со шрифтом */
+}
+
+a{
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+}
+
+#red-line {
+    width: 100%;
+    max-width: 1920px;
+    height: 4px;
+    background-color: #CC3333;
+}
+
+.first-head {
+   display: flex;
+    width: 100%;
+    max-width: 1920px;
+    height: 40px;
+    background-color: #2a2b2c;
+}
+
+.icons {
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a {
+    cursor: pointer;
+}
+
+.reg-log {
+    width:50%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-log a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:white;
+}
+
+.basket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:40px;
+    width: 100px;
+    height: 50px;
+    background-color: #CC3333;
+    border-radius: 9px;
+}
+
+.main-menu {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    height: 100px;
+}
+
+.logo {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#m-symb {
+    position: relative;
+    left: 43px;
+}
+
+#m-symb a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#store-text {
+    margin-left: 5px;
+}
+
+#store-text a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.menu {
+    width: 52%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 27px;
+    padding: 10px;
+}
+
+.menu a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+    font-size: 15px;
+}
+
+.menu span {
+    display: block;
+    height: 5px;
+    width: 100%;
+    transition: .6s;
+    margin-bottom: 5px;
+}
+
+.menu li:hover span {
+    background-color: #EFC539;
+    transition: .6s;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.frame-block {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.frame-horizontal {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    height: 7px;
+    background-color: #1E1E20;
+}
+
+.frame-vertical {
+    position: relative;
+    width: 15px;
+    height:490px;
+    background-color: #1E1E20;
+}
+
+.main-slider {
+    display: flex;
+    justify-content: center;
+    height:470px;
+
+}
+
+
+.slider-item {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.slider-item img {
+    position: relative;
+    width: 940px;
+    height: 470px;
+ /*   left: 955px;*/
+}
+
+
+
+.arrow-cont {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+
+.left-arrow {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    opacity: 0.8;
+    border-radius: 100px;
+
+}
+
+.slider-test {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left: 150px;
+    background-color: #1E1E20;
+    width: 100px;
+    height: 100px;
+    opacity: 0.8;
+    border-radius: 100px;
+    z-index: 999;
+    transition: .8s;
+}
+
+.slick-prev:hover {
+    background-color: black;
+    transition: .8s;
+}
+
+.slick-prev:focus {
+    background-color: black;
+}
+
+
+
+.slick-next {
+    right: 150px;
+    background-color: #1E1E20;
+    width: 100px;
+    height: 100px;
+    opacity: 0.8;
+    border-radius: 100px;
+    z-index: 999;
+    transition: .8s;
+}
+
+.slick-next svg {
+    height: 60px;
+    width: 60px;
+}
+
+.slick-next:hover {
+    background-color: black;
+    transition: .8s;
+}
+
+.slick-next:focus {
+    background-color: black;
+}
+
+.slider-test img{
+    width: 940px;
+    height: 470px;
+}
+
+.slider-test {
+    overflow-x: hidden;
+}
+
+.slide {
+    border: solid #1E1E20 7px;
+}
+
+.welcome-cont {
+    margin-top: 40px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    position: relative;
+    margin: auto;
+    width: 60%;
+    height: 110px;
+    border-top:dotted 2px #B1B1B1;
+    border-bottom:dotted 2px #B1B1B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    border-top:dotted 2px #B1B1B1;
+    border-bottom:dotted 2px #B1B1B1;
+}
+
+.welcome:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    bottom: 6px;
+    left: 0;
+    right: 0;
+    border-top:dotted 2px #B1B1B1;
+    border-bottom:dotted 2px #B1B1B1;
+}
+
+.welcome-text {
+   font-weight: 700;
+    font-size: 1.8vw;
+    font-family: Oswald, Helvetica, sans-serif;
+    color: #1E1E20;
+}
+
+#musical {
+    text-align: center;
+    background-color: #CD3737;
+    padding: 5px;
+    color: white;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    max-width: 1920px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62%;
+    height: 110px;
+}
+
+.collection,
+.listen,
+.events {
+    margin: 20px;
+    width: 400px;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.collection {
+    background-color: #1E1E20;
+}
+
+.listen {
+    background-color: #CC3333;
+}
+
+.events {
+    background-color: #1E1E20;
+}
+
+.info {
+
+    color: white;
+    text-align: center;
+    font-family: Oswald, Helvetica, sans-serif;
+    font-size: 1vw;
+}
+
+.info-head {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-head img {
+    margin: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.info-text {
+    font-size: 0.7vw;
+    position: relative;
+    height: 40px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.latest-head {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+}
+
+.latest-text {
+    width: 38%;
+    color: #1E1E20;
+    font-family: Oswald, Helvetica, sans-serif;
+    font-size: 1.7vw;
+    text-align: right;
+}
+
+
+.latest-line {
+    width: 38%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.latest-border {
+    position: relative;
+    width: 100%;
+    border-top:dotted 2px #B1B1B1;
+}
+
+.latest-border:before {
+    content: "";
+    position: absolute;
+    top: -6.5px;
+    bottom: -6.5px;
+    left: 0;
+    right: 0;
+    border-top:dotted 2px #B1B1B1;
+
+}
+
+.latest-border:after {
+    content: "";
+    position: absolute;
+    top: 2.4px;
+    bottom: 2.4px;
+    left: 0;
+    right: 0;
+    border-top:dotted 2px #B1B1B1;
+}
+
+.red-arrow {
+    margin-left: 5px;
+    width: 24px;
+    height: 24px;
+    background-color: #CC3333;
+}
+
+.latest-store {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.product-con {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    width: 270px;
+    height: 450px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px gray;
+    color: #1E1E20;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.product img {
+    width: 270px;
+    height: 270px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px gray;
+}
+
+.song-name {
+    font-weight: 700;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+.author {
+
+}
