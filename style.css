@@ -45,7 +45,7 @@ a{
 
 .reg-log {
     width:50%;
-    display: inherit;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -111,6 +111,7 @@ a{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .menu ul {
@@ -333,7 +334,8 @@ a{
     font-size: 40px;
     font-family: Oswald, Helvetica, sans-serif;
     color: #1E1E20;
-    white-space: nowrap;
+    transition: ease all .8s;
+
 }
 
 #musical {
@@ -346,12 +348,12 @@ a{
 .info-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 120px;
+    height: 110px;
     width: 100%;
     max-width: 1920px;
     margin-top: 40px;
     margin-bottom: 40px;
+    transition: ease all .8s;
 }
 
 .info {
@@ -393,7 +395,7 @@ a{
 }
 
 .info-head {
-    height: 61px;
+    height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -518,4 +520,29 @@ a{
 
 .author {
 
+}
+
+@media screen and (max-width: 1080px) {
+
+    .welcome-text {
+        font-size: 25px;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 851px) {
+
+    .info-container {
+        justify-content: center;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .collection,
+    .listen,
+    .events {
+        width: 270px;
+    }
 }
