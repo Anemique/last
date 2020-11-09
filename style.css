@@ -296,7 +296,7 @@ a{
 .welcome {
     position: relative;
     margin: auto;
-    width: 60%;
+    width: 70%;
     height: 110px;
     border-top:dotted 2px #B1B1B1;
     border-bottom:dotted 2px #B1B1B1;
@@ -328,10 +328,12 @@ a{
 }
 
 .welcome-text {
+    display: flex;
    font-weight: 700;
-    font-size: 1.8vw;
+    font-size: 40px;
     font-family: Oswald, Helvetica, sans-serif;
     color: #1E1E20;
+    white-space: nowrap;
 }
 
 #musical {
@@ -367,6 +369,8 @@ a{
     width: 400px;
     height: 100%;
     border-radius: 7px;
+    min-width: 250px;
+    min-height: 93%;
 }
 
 .collection {
@@ -382,11 +386,10 @@ a{
 }
 
 .info {
-
     color: white;
     text-align: center;
     font-family: Oswald, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 16px;
 }
 
 .info-head {
@@ -404,7 +407,7 @@ a{
 }
 
 .info-text {
-    font-size: 0.7vw;
+    font-size: 14px;
     position: relative;
     height: 40px;
     width:100%;
@@ -425,7 +428,7 @@ a{
     width: 38%;
     color: #1E1E20;
     font-family: Oswald, Helvetica, sans-serif;
-    font-size: 1.7vw;
+    font-size: 35px;
     text-align: right;
 }
 
