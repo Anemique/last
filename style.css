@@ -713,10 +713,3 @@ a{
 
 }
 
-@media screen and (max-width: 1200px) {
-
-    .product-con {
-        width:50%;
-    }
-
-}

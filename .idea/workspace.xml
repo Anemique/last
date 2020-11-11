@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2545edab-413d-4dbe-b6d1-c4dd768f0212" name="Default Changelist" comment="news">
+    <list default="true" id="2545edab-413d-4dbe-b6d1-c4dd768f0212" name="Default Changelist" comment="new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -57,7 +57,8 @@
       <workItem from="1605075812872" duration="10259000" />
       <workItem from="1605092892336" duration="6484000" />
       <workItem from="1605102117400" duration="590000" />
-      <workItem from="1605108398044" duration="289000" />
+      <workItem from="1605108398044" duration="537000" />
+      <workItem from="1605111544910" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="ea">
       <created>1604697302018</created>
@@ -122,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605108419548</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new">
+      <created>1605108698159</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605108698159</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new">
+      <created>1605108792104</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605108792104</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,19 +161,19 @@
     <MESSAGE value="eaa" />
     <MESSAGE value="eaaa" />
     <MESSAGE value="e" />
-    <MESSAGE value="new" />
     <MESSAGE value="news" />
-    <option name="LAST_COMMIT_MESSAGE" value="news" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
     <state width="498" height="446" key="SwitcherDM" timestamp="1605076168479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1605076168479" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605108421447">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605108793903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605108421447" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605108793903" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605083840735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
