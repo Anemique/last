@@ -652,6 +652,52 @@ a{
     background-color: #CD4E49;
 }
 
+.pub-container {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.publishers {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.water-melocious,
+.plant-cloud,
+.inspired,
+.bird-fly,
+.man-sil,
+.your-logo {
+    width: 190px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E5E5;
+    background: linear-gradient(to right, #E5E5E5, #fff);
+    opacity: .7;
+    flex-wrap: wrap;
+    color: #2a2b2c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.your-logo span {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.your-logo span span {
+    color: black;
+}
 @media screen and (max-width: 1500px) {
 
     .slick-next {
@@ -710,4 +756,6 @@ a{
         margin-top: 10px;
     }
 }
+
+
 
