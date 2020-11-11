@@ -419,28 +419,33 @@ a{
 
 }
 
+
+
 .latest-head {
     width: 100%;
     max-width: 1920px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .latest-text {
-    width: 38%;
+    width: 25%;
     color: #1E1E20;
     font-family: Oswald, Helvetica, sans-serif;
     font-size: 35px;
-    text-align: right;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 20px;
+    transition: ease all .8s;
 }
 
 
 .latest-line {
-    width: 38%;
-    margin-left: 20px;
+   width: 46%;
     display: flex;
     align-items: center;
-
+    justify-content: flex-start;
 }
 
 .latest-border {
@@ -468,6 +473,10 @@ a{
     left: 0;
     right: 0;
     border-top:dotted 2px #B1B1B1;
+}
+
+.arrow-c {
+    display: flex;
 }
 
 .red-arrow {
@@ -522,10 +531,26 @@ a{
 
 }
 
+
+@media screen and (max-width: 1500px) {
+
+    .slick-next {
+        right: 5px;
+    }
+    .slick-prev {
+        left: 5px;
+    }
+
+}
+
 @media screen and (max-width: 1080px) {
 
     .welcome-text {
         font-size: 25px;
+        white-space: nowrap;
+    }
+    .latest-text {
+        font-size: 20px;
         white-space: nowrap;
     }
 }
@@ -545,5 +570,21 @@ a{
     .listen,
     .events {
         width: 270px;
+    }
+
+    .latest-head {
+        display: block;
+    }
+
+    .latest-text,.latest-line{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .arrow-c {
+      width: 100%;
+        justify-content: center;
+        margin-top: 10px;
     }
 }
