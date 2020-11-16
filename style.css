@@ -988,6 +988,11 @@ input[type="search"]::placeholder {
         justify-content: center;
         margin-top: 10px;
     }
+
+    .bot-menu,
+    .by-info-block {
+        width: 100%;
+    }
 }
 
 
