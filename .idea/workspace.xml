@@ -19,32 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2545edab-413d-4dbe-b6d1-c4dd768f0212" name="Default Changelist" comment="qweq">
+    <list default="true" id="2545edab-413d-4dbe-b6d1-c4dd768f0212" name="Default Changelist" comment="pochtivse">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/076201-abstract-red-and-gold-paint-splatter-icon-business-cart-7dots.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Vector Smart Object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/calendar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/cd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/facebook-top-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/headset2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/top-dribble-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/top-mail-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/top-twitter-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/top-vimeo-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagesSlider/1-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagesSlider/2-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagesSlider/mew.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productImages/latest/Layer 2111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productImages/latest/dreams.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productImages/latest/hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productImages/latest/ravenna.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productImages/sale/aqualung.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productImages/sale/caribou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productImages/sale/grave.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productImages/sale/strange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratingImages/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratingImages/starBlack.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +60,12 @@
       <workItem from="1605102117400" duration="590000" />
       <workItem from="1605108398044" duration="537000" />
       <workItem from="1605111544910" duration="134000" />
-      <workItem from="1605123809487" duration="3771000" />
+      <workItem from="1605123809487" duration="4027000" />
+      <workItem from="1605255233542" duration="1874000" />
+      <workItem from="1605257970771" duration="7700000" />
+      <workItem from="1605282055521" duration="625000" />
+      <workItem from="1605428951216" duration="6658000" />
+      <workItem from="1605512219720" duration="3608000" />
     </task>
     <task id="LOCAL-00001" summary="ea">
       <created>1604697302018</created>
@@ -176,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605111623004</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="pochtivse">
+      <created>1605128039729</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605128039729</updated>
+    </task>
+    <task id="LOCAL-00015" summary="pochtivse">
+      <created>1605128128168</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605128128168</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,17 +200,18 @@
     <MESSAGE value="new" />
     <MESSAGE value="qwe" />
     <MESSAGE value="qweq" />
-    <option name="LAST_COMMIT_MESSAGE" value="qweq" />
+    <MESSAGE value="pochtivse" />
+    <option name="LAST_COMMIT_MESSAGE" value="pochtivse" />
   </component>
   <component name="WindowStateProjectService">
     <state width="498" height="446" key="SwitcherDM" timestamp="1605076168479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1605076168479" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605111624680">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605128129605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605111624680" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605128129605" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605083840735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
