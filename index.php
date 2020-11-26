@@ -393,20 +393,9 @@ eget, arcu. In enim justo, lorem ipsum.</div></div>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script src="slick-1.8.1/slick/slick.min.js"></script>
+<script src="scripts/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="scripts/main.js"></script>
 
-<script>
-    $('.main-slider2').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
-        variableWidth: true,
-        dots: false,
-        focusOnSelect: true,
-
-    });
-</script>
 
 </body>
 
